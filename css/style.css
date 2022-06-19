@@ -3,6 +3,11 @@ body{
    background: linear-gradient(90deg, #41464b 0% 15%, #DEE5E7 15% 85%, #41464b 85% 100%);
 }
 
+@media all and (max-width: 768px) {
+
+   background: linear-gradient(90deg, #41464b 0% 20%, #DEE5E7 20% 80%, #41464b 80% 100%);
+}
+
 a {
   color: #0000008C;
 }
@@ -47,13 +52,13 @@ img {
         left: 0;
         padding-top: 230px;
         padding-left: -15%;
-        width: 85%;
+        width: 80%;
         height: 100%;
         background-color: #e9ecef
    }
 
     .navbar-collapse.collapsing {
-        left: -85%;
+        left: -80%;
         transition: height 0s ease;
     }
 
