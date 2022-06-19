@@ -36,7 +36,7 @@ img {
 }
 
 .navbar .navbar-toggler {
-   background-color: #e9ecef;
+   background-color: #DEE5E7;
 }
 
 @media all and (max-width: 768px) {
@@ -65,7 +65,6 @@ img {
     .navbar-toggler.collapsed ~ .navbar-collapse {
         transition: left 500ms ease-in-out;
     }
-
 
 body{
    background: linear-gradient(90deg, #41464b 0% 20%, #DEE5E7 20% 80%, #41464b 80% 100%);
