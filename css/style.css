@@ -2,7 +2,7 @@ body {
    background: linear-gradient(90deg, #41464b 0% 15%, #DEE5E7 15% 85%, #41464b 85% 100%);
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
 
 body {
    background: linear-gradient(90deg, #41464b 0% 20%, #DEE5E7 20% 80%, #41464b 80% 100%);
