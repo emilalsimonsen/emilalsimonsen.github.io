@@ -73,12 +73,12 @@ img {
    .navbar-collapse {
         position: fixed;
         top: 0px;
-        left: 0;
+        left: 0px;
         padding-top: 230px;
         padding-left: -20%;
         width: 80%;
         height: 100%;
-        background-color: #e9ecef
+        background-color: #e9ecef;
    }
 
     .navbar-collapse.collapsing {
@@ -95,4 +95,16 @@ img {
         transition: left 500ms ease-in-out;
     }
 
+    .navbar-toggler.collapsed .close-icon {
+    display: none;
+    }
+
+    .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    display: inline;
+    }
+
+    .btn-close:hover {
+        color:  #0000008C; 
+        opacity: .5;
+    }    
 }
