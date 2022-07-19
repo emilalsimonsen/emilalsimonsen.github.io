@@ -103,8 +103,23 @@ img {
     display: inline;
     }
 
-    .btn-close:hover {
-        color:  #0000008C; 
-        opacity: .5;
+     .navbar-toggler-icon {
+        opacity: .75;
+        color: #0000008C;
+
+    }
+
+    .btn-close {
+        color:  #0000008C;
     }    
+
+    .btn-close:hover {
+        opacity: 1;
+        color:  #0000008C;
+    }    
+
+     .navbar-toggler-icon:hover {
+        text-decoration: none;
+        opacity: 1;
+    }
 }
