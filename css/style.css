@@ -124,6 +124,8 @@ img {
 
     .btn-close {
         color:  #0000008C;
+        width: 1.5em;
+        height: 1.5em;
     }    
 
     .btn-close:hover {
@@ -136,8 +138,4 @@ img {
         opacity: 1;
     }
 
-    .btn-close {
-            width: 1em;
-            height: 1em;
-    }    
 }
