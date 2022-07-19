@@ -15,6 +15,13 @@ img {
    min-height:240px;
 }
 
+
+iframe {
+ height: 350px;
+ width: 80%
+}
+
+
 .fa {
   padding: 20px;
   font-size: 30px;
