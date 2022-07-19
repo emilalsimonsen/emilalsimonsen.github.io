@@ -101,7 +101,7 @@ img {
         transition: left 500ms ease-in-out;
     }
 
-    .navbar-toggler.collapsed .close-icon {
+    .navbar-toggler.collapsed .btn-close {
     display: none;
     }
 
@@ -128,4 +128,10 @@ img {
         text-decoration: none;
         opacity: 1;
     }
+
+
+    .btn-close {
+            width: 1em;
+            height: 1em;
+    }    
 }
