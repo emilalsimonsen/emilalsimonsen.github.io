@@ -68,6 +68,12 @@ img {
    background-color: #DEE5E7;
 }
 
+
+#wrap {
+   padding-left: 0.75rem;
+}
+
+
 @media all and (max-width: 767px) {
 
    .navbar-collapse {
