@@ -108,7 +108,7 @@ img {
         transition: left 500ms ease-in-out;
     }
 
-    .navbar-toggler.collapsed .btn-close {
+    .navbar-toggler.collapsed .close {
     display: none;
     }
 
@@ -122,13 +122,21 @@ img {
 
     }
 
-    .btn-close {
+    .close {
         color:  #0000008C;
-        width: 1.5em;
-        height: 1.5em;
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        opacity: .75;
+        font-weight: bold;
+        font-size:  1.5em;
+        background-size: 100%;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-position: center;
     }    
 
-    .btn-close:hover {
+    .close:hover {
         opacity: 1;
         color:  #0000008C;
     }    
